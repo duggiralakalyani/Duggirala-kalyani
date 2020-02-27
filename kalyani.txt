@@ -1,0 +1,8 @@
+
+def writetoafile(filename,data):
+    with open(filename,"w")as f:
+        f.write(data)
+    return
+filename = "data.txt"
+writetoafile(filename,"line1\nline2\n")
+    
